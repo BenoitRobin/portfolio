@@ -76,8 +76,8 @@ $(function(){
 
 	$('#circle').circleProgress({
     value: 1,
-		size: 350,
-		thickness: 70,
+		size: 150,
+		thickness: 30,
 		lineCap: "round",
 		emptyFill: "#ccc",
 		fill: "#e28139",
@@ -88,8 +88,8 @@ $(function(){
 	
 	$('#circle1').circleProgress({
     value: 0.80,
-		size: 350,
-		thickness: 70,
+		size: 150,
+		thickness: 30,
 		lineCap: "round",
 		emptyFill: "#ccc",
     fill: "#e28139", 
@@ -100,8 +100,8 @@ $(function(){
 
 	$('#circle2').circleProgress({
     value: .99,
-		size: 350,
-		thickness: 70,
+		size: 150,
+		thickness: 30,
 		lineCap: "round",
 		emptyFill: "#ccc",
     fill: "#e28139", 

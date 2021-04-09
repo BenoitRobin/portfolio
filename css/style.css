@@ -309,13 +309,14 @@ a.down-arrow img {
 }
 
 .skill p {
+	width: fit-content;
 	font-size: 1.25rem;
 	font-weight: 400;
 	line-height: 1.875rem;
 	color: #ccc;
-	margin-bottom: 4.25rem;
-	text-align: center;
-
+	padding-left: 2rem;
+	margin: 2rem 0!important;
+	border-top: solid 4px #e28139;	
 }
 
 
@@ -327,16 +328,18 @@ a.down-arrow img {
 }
 
 .percent {
-	font-size: 6.25rem;
+	font-size: 1.25rem;
 	font-weight: 700;
-	line-height: 6.25rem;
+	line-height: 1.25rem;
 	color: #ccc;
+	width: fit-content;
+	padding-left: 80%;
 }
 
 .progress-container {
+	display:flex;
+	flex-direction: column;
 	flex-basis: 100%;
-	padding-left: 2rem;
-
 }
 
 .progress-container strong {
@@ -353,10 +356,12 @@ a.down-arrow img {
 } 
 
 .progress-bar {
-	height: 4.125rem;
+	height: 2rem;
 	background-color: #e28139;
 }
 
+
+/* SOFT SKILLS */
 .titlesoftskills {
 	margin-top: 4rem;
 }
@@ -367,6 +372,9 @@ a.down-arrow img {
 	color: #fff;
 }
 
+.reduceTypo {
+	font-size: .8rem;
+}
 /* Portfolio */
 
 
